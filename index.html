@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sun | 생물학 포트폴리오</title>
+  <meta name="description" content="생물학을 바탕으로 바이오의약품, 개발, 신약 분야를 탐구하는 sun의 포트폴리오입니다.">
+
+  <!-- 웹 폰트 (Pretendard & Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+  <!-- 스타일시트 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 상단 네비게이션 헤더 -->
+  <header class="header" id="header">
+    <div class="header-container">
+      <a href="#home" class="logo">sun.</a>
+
+      <!-- 데스크톱 메뉴 -->
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">소개</a></li>
+          <li><a href="#interests" class="nav-link">관심 분야</a></li>
+          <li><a href="#projects" class="nav-link">프로젝트</a></li>
+          <li><a href="#experience" class="nav-link">경력 및 이력</a></li>
+          <li><a href="#contact" class="nav-link">연락처</a></li>
+        </ul>
+      </nav>
+
+      <!-- 우측 컨트롤 (다크모드 & 모바일 버튼) -->
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="다크 모드 전환" title="테마 변경">
+          <span class="theme-icon" id="themeIcon">🌙</span>
+        </button>
+        <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="메뉴 열기">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. 첫 화면: 히어로 섹션 (이름 & 자기소개) -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <!-- 프로필 캐릭터 이미지 -->
+        <div class="hero-avatar-box">
+          <img src="images/sun_profile.png" alt="sun 프로필 캐릭터" class="hero-avatar-img">
+        </div>
+
+        <div class="hero-text-box">
+          <div class="hero-badge">Biology & Life Sciences</div>
+          <h1 class="hero-title">안녕하세요, <span class="highlight">sun</span>입니다.</h1>
+          <p class="hero-subtitle">현재 역할: <strong>생물학</strong></p>
+          <div class="hero-motto">
+            <span class="quote-tag">한 줄 소개</span>
+            <p class="quote-text">“잘 버팀”</p>
+          </div>
+          <p class="hero-description">
+            생물학적 가설을 검증하고 의미 있는 결과를 도출하기까지는 수많은 반복과 인내가 필요합니다.<br>
+            어려운 환경과 긴 연구 호흡 속에서도 <strong>‘잘 버티며’</strong> 묵묵히 답을 찾아내는 끈기를 가지고 있습니다.<br>
+            바이오의약품, 개발, 신약 연구를 통해 사람들의 건강한 내일에 기여하고자 합니다.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">함께하기 / 연락하기</a>
+            <a href="#interests" class="btn btn-secondary">관심 분야 둘러보기</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. 소개 (About) -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">01</span>
+          <h2 class="section-title">소개 (About)</h2>
+        </div>
+
+        <div class="about-content">
+          <p class="about-lead">
+            생명현상의 원리를 탐구하고, 이를 실제 치료제로 발전시키는 과정에 깊은 흥미를 느끼고 있습니다.
+          </p>
+          <div class="about-cards-grid">
+            <div class="about-card">
+              <div class="card-icon">🌱</div>
+              <h3 class="card-title">끈기와 인내</h3>
+              <p class="card-desc">
+                ‘잘 버팀’이라는 한 줄 소개처럼, 실패와 변수가 많은 실험 환경에서도 지치지 않고 원인을 파악해 끝까지 마무리합니다.
+              </p>
+            </div>
+            <div class="about-card">
+              <div class="card-icon">🔬</div>
+              <h3 class="card-title">생물학적 기초</h3>
+              <p class="card-desc">
+                세포와 분자 수준의 메커니즘을 이해하고, 이를 바탕으로 치료 타깃과 메커니즘을 논리적으로 분석하는 기본기를 다져가고 있습니다.
+              </p>
+            </div>
+            <div class="about-card">
+              <div class="card-icon">🤝</div>
+              <h3 class="card-title">소통과 협업</h3>
+              <p class="card-desc">
+                다양한 연구원, 개발자, 실무진과의 원활한 소통을 중요하게 생각하며, 서로의 전문성을 존중하며 시너지를 만들어갑니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 관심 분야 (Interests) -->
+    <section class="interests-section" id="interests">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">02</span>
+          <h2 class="section-title">관심 분야 (Interests)</h2>
+        </div>
+
+        <div class="interests-grid">
+          <!-- 관심 분야 1: 바이오의약품 -->
+          <article class="interest-card">
+            <div class="interest-tag">Biopharmaceuticals</div>
+            <h3 class="interest-heading">바이오의약품</h3>
+            <p class="interest-text">
+              생물체 유래 물질을 이용해 제조하는 의약품에 깊은 관심을 가지고 있습니다. 항체의약품, 유전자 치료제, 재조합 단백질 등 기존 합성의약품의 한계를 뛰어넘는 바이오 제제 연구에 집중합니다.
+            </p>
+            <ul class="interest-points">
+              <li>세포 배양 및 단백질 발현 분석</li>
+              <li>생물학적 제제 품질 및 메커니즘 탐색</li>
+              <li>바이오시밀러 및 차세대 바이오신약 동향 팔로업</li>
+            </ul>
+          </article>
+
+          <!-- 관심 분야 2: 개발 -->
+          <article class="interest-card">
+            <div class="interest-tag">Development & Optimization</div>
+            <h3 class="interest-heading">개발 (R&D Process)</h3>
+            <p class="interest-text">
+              실험실 단위의 연구를 생산과 상용화 단계로 연결하는 개발 프로세스에 주목합니다. 재현성 있는 실험 프로토콜 확립과 공정 최적화(Scale-up), 데이터 기반 분석을 지향합니다.
+            </p>
+            <ul class="interest-points">
+              <li>실험 프로토콜 설계 및 데이터 분석</li>
+              <li>연구 파이프라인의 효율화와 표준화</li>
+              <li>학제 간 융합 개발 협업</li>
+            </ul>
+          </article>
+
+          <!-- 관심 분야 3: 신약 -->
+          <article class="interest-card">
+            <div class="interest-tag">Drug Discovery</div>
+            <h3 class="interest-heading">신약 (Drug Discovery)</h3>
+            <p class="interest-text">
+              난치성 질환을 극복하기 위한 타깃 발굴 및 약물 유효성 평가에 관심을 두고 있습니다. 질병 유발 인자를 정밀하게 겨냥하여 환자의 삶의 질을 높이는 혁신 신약 탐색을 목표로 합니다.
+            </p>
+            <ul class="interest-points">
+              <li>질환 타깃 발굴 및 작용 기전(MoA) 조사</li>
+              <li>신약 후보물질 스크리닝 및 문헌 고찰</li>
+              <li>최신 글로벌 임상 및 신약 승인 트렌드 분석</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 프로젝트 (Projects) -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">03</span>
+          <h2 class="section-title">프로젝트 (Projects)</h2>
+        </div>
+        <p class="section-description">
+          직접 진행하거나 참여한 실험, 연구 과제, 스터디 및 프로젝트를 기록하는 공간입니다.
+        </p>
+
+        <div class="projects-grid">
+          <!-- 실제 진행한 프로젝트를 채워넣을 수 있는 단정한 템플릿 카드들 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-badge">연구 / 프로젝트 01</span>
+              <span class="project-status">준비 / 진행 중</span>
+            </div>
+            <h3 class="project-title">바이오의약품 타깃 기전 분석 과제</h3>
+            <p class="project-desc">
+              신약 개발 후보 타깃 단백질의 상호작용 및 생체 내 경로를 문헌과 데이터를 통해 분석하고 정리한 연구 프로젝트입니다.
+            </p>
+            <div class="project-tags">
+              <span>#바이오의약품</span>
+              <span>#기전분석</span>
+              <span>#데이터리뷰</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-badge">연구 / 프로젝트 02</span>
+              <span class="project-status">준비 / 진행 중</span>
+            </div>
+            <h3 class="project-title">신약 후보물질 스크리닝 및 프로토콜 설계</h3>
+            <p class="project-desc">
+              생물학적 활성 측정을 위한 실험 설계와 재현성 확보를 위한 프로토콜 가이드라인 작성 스터디 과제입니다.
+            </p>
+            <div class="project-tags">
+              <span>#신약개발</span>
+              <span>#실험프로토콜</span>
+              <span>#프로세스최적화</span>
+            </div>
+          </div>
+
+          <!-- 신규 프로젝트 추가 가이드 카드 -->
+          <div class="project-card project-card-add">
+            <div class="add-icon">＋</div>
+            <h3 class="project-title">나의 프로젝트를 추가해 보세요</h3>
+            <p class="project-desc">
+              <code>index.html</code> 파일의 이 부분을 수정하여 실제 논문, 캡스톤 디자인, 학위 연구, 실험 과제 내용을 손쉽게 등록할 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. 경력 및 이력 (Experience & Education) -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-num">04</span>
+          <h2 class="section-title">경력 및 이력 (Experience)</h2>
+        </div>
+        <p class="section-description">
+          실제 확인된 이력만을 투명하게 기재하며, 본인의 학력과 경험을 순차적으로 채워 넣을 수 있습니다.
+        </p>
+
+        <div class="timeline">
+          <!-- 이력 항목 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">현재</div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">생물학 분야 탐구 및 연구 역량 강화</h3>
+              <p class="timeline-org">독립 연구 / 취업 준비</p>
+              <p class="timeline-detail">
+                바이오의약품 및 신약 개발 분야 진출을 위해 최신 학술 동향 분석, 기초 실험 지식 점검, 포트폴리오를 정리하고 있습니다.
+              </p>
+            </div>
+          </div>
+
+          <!-- 이력 항목 2 (사용자가 실제 정보로 업데이트할 템플릿) -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">이력 추가 영역</div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">학력 / 연구실 / 인턴십 이력</h3>
+              <p class="timeline-org">소속 기관명 / 대학교</p>
+              <p class="timeline-detail">
+                실제 전공 과정, 수행한 연구실(Lab) 활동, 수강한 주요 전공 교과목 및 관련 수료 내역을 작성해 보세요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. 연락처 (Contact) -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <span class="contact-pill">Get in touch</span>
+          <h2 class="contact-title">함께 성장하고 새로운 가치를 만들어갈 기회를 기다립니다.</h2>
+          <p class="contact-desc">
+            바이오의약품, 신약 개발 관련 채용 제안, 연구 협업, 커피챗은 언제든 편하게 연락해 주세요.
+          </p>
+
+          <div class="contact-methods">
+            <a href="mailto:your-email@example.com" class="contact-link" id="emailLink">
+              <span class="contact-icon">✉️</span>
+              <span class="contact-text">your-email@example.com</span>
+            </a>
+            <button class="btn btn-copy" id="copyEmailBtn" onclick="copyEmail()">이메일 복사하기</button>
+          </div>
+
+          <div class="contact-extra">
+            <span>위치: 대한민국</span>
+            <span class="divider">·</span>
+            <span>역할: 생물학</span>
+            <span class="divider">·</span>
+            <span>키워드: 잘 버팀</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-copy">© 2026 sun. All rights reserved.</p>
+      <p class="footer-host">GitHub Pages 호스팅 정적 웹사이트</p>
+      <a href="#home" class="back-to-top" aria-label="맨 위로 이동">↑ 맨 위로</a>
+    </div>
+  </footer>
+
+  <!-- 자바스크립트 -->
+  <script src="script.js"></script>
+</body>
+</html>
